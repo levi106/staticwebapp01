@@ -2,5 +2,13 @@
 <html>
   <body>
     <p>Hello World</p>
+    <button type="button" onclick="openWindow()">open</button>
+    <script>
+      function openWindow() {
+        const url = 'https://www.bing.com';
+        const feature = 'left=100,top=100,width=400,height=400';
+        window.open(url, '_blank', feature);
+      }
+    </script>
   </body>
 </html>
